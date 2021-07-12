@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,36 +12,44 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="container">
+
+        <!-- Header section -->
         <div class="navBar">
             <h1>English to German Accent Translator</h1>
             <p>Modify some core consonants and vowels sounds to make your speech sound more authentically German</p>
         </div>
+
+        <!-- Text input and display section -->
         <div class="text">
-      
-                <textarea class="text-area" name="text-area-input" id="text-area-input" cols="30" rows="10" placeholder="Type something to translate to German accent."></textarea>
-         
-                <textarea class="text-area" name="text-area-output" id="text-area-output" cols="30" rows="10" placeholder="Your German accent translation will appear here." ></textarea>
+            <textarea class="text-area" name="text-area-input" id="text-area-input" cols="30" rows="10"
+                placeholder="Type something to translate to German accent."></textarea>
+
+            <textarea class="text-area" name="text-area-output" id="text-area-output" cols="30" rows="10"
+                placeholder="Your German accent translation will appear here." readonly></textarea>
         </div>
 
-       
-            <button class="btn">Translate</button>
-     
+        <!-- Button Section -->
+        <button class="btn">Translate</button>
+
+        <!-- Footer Section -->
+        <footer>
+            <div class="heading-footer">Get in touch with me</div>
+            <ul>
+                <li class="socialLinks">
+                    <a href="https://github.com/Omkar-Ghate" target="blank"><i class="fab fa-github"></i> GitHub</a>
+                </li>
+                <li class="socialLinks">
+                    <a href="https://www.linkedin.com/in/omkarghate/" target="blank"><i class="fab fa-linkedin"></i>
+                        LinkedIn</a>
+                </li>
+            </ul>
+        </footer>
         
-            <footer>
-                <div class="heading-footer">Get in touch with me</div>
-                <ul>
-                    <li class="socialLinks">
-                        <a  href="https://github.com/Omkar-Ghate" target="blank"><i class="fab fa-github"></i> GitHub</a>
-                    </li>
-                    <li class="socialLinks">
-                        <a  href="https://www.linkedin.com/in/omkarghate/" target="blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                    </li>
-                   
-                </ul>
-            </footer>
     </div>
     <script src="./app.js"></script>
 </body>
+
 </html>
