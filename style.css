@@ -7,10 +7,10 @@
 
 .container{
     background: url('./images/bg.jpg');
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 110vh;
     width: 100vw;
 }
 
@@ -24,8 +24,9 @@ a{
     text-align: center;
     color: rgb(223, 217, 217);
     padding-top: 1rem;
-    height: 8.2rem;
+    height: fit-content;
     font-size: 1.5rem;
+    margin-bottom: 5rem;
 }
 .navBar p{
     font-family: 'Dancing Script', cursive;
@@ -40,7 +41,6 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-   
 }
 
 .text-area{
@@ -102,4 +102,24 @@ footer {
 
 .socialLinks a{
     color: black;
+}
+@media (max-width: 850px){
+    .container{
+        height: 125vh;
+    }
+}
+@media (max-width: 500px){
+    .text{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+        height: 190vh;
+    }
+}
+@media (max-width: 350px){
+    .container{
+        height: 210vh;
+    }
 }
