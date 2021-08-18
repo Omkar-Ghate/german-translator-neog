@@ -86,6 +86,11 @@ footer {
     width: 100%;
     font-weight: 900;
 }
+.footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .heading-footer {
     font-family: 'Lato', sans-serif;
@@ -102,6 +107,7 @@ footer {
 
 .socialLinks a{
     color: black;
+    font-size: 1.5rem;
 }
 @media (max-width: 850px){
     .container{
