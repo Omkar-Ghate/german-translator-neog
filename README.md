@@ -10,8 +10,6 @@ Do you wonder how can you sound more authentically German? If yes, this will be 
 ![CSS](https://img.shields.io/badge/frontend-css-yellowgreen.svg?logo=css3&style=flat-square)
 ![JavaScript](https://img.shields.io/badge/frontend-javascript-blue.svg?logo=javascript&style=flat-square) 
 
-- Front End - **HTML**, **CSS** , **JavaScript**
-
 ### German accent translator API used from [funtranslations.com](https://funtranslations.com/)
 
 ### Still need help?
